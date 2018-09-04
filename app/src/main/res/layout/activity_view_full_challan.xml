@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewFullChallanActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/headingTextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Your Challan Details"
+            android:textAlignment="center"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/challanIdTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:text="Challan ID" />
+
+        <TextView
+            android:id="@+id/violationTypeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:text="Violation Type" />
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:text="Date" />
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:text="Time" />
+
+        <TextView
+            android:id="@+id/placeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:text="Place" />
+
+        <TextView
+            android:id="@+id/fineTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:text="Fine" />
+
+        <TextView
+            android:id="@+id/statusTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:text="Status" />
+
+        <TextView
+            android:id="@+id/regNoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:text="Registration Number" />
+
+        <TextView
+            android:id="@+id/aadhaarNoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:text="Aadhaar Number" />
+
+        <ImageView
+            android:id="@+id/challanImageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/displayTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:text="Note: Pay your Challan within 15 days of the Issue Date." />
+
+        <Button
+            android:id="@+id/contactOfficerButton"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonstyleselector"
+            android:layout_height="wrap_content"
+            android:text="Contact Officer" />
+
+
+    </LinearLayout>
+</ScrollView>

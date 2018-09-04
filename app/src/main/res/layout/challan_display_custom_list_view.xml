@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/challanIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+        android:text="Challan ID"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/issueDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="60dp"
+        android:padding="5dp"
+        android:text="Date"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/violationTextView"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/issueDateTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="107dp"
+        android:padding="5dp"
+        android:text="Violation"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/fineTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="30dp"
+        android:padding="5dp"
+        android:text="Fine"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/issueDateTextView"
+        android:layout_marginEnd="20dp"
+        android:padding="5dp"
+        android:text="Status"
+        android:textColor="#000" />
+
+
+</RelativeLayout>

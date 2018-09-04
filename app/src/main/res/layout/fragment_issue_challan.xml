@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/traffic_dark"
+    tools:context=".IssueChallanFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/regNoEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/edittextstyle"
+            android:ems="10"
+            android:hint="Registration Number"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/challanDateEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/edittextstyle"
+            android:ems="10"
+            android:hint="Date"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <Spinner
+            android:id="@+id/placeSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="262dp"
+            android:background="#fff"
+            android:backgroundTint="#ffffff"
+            android:entries="@array/placeSpinnerValues"
+            android:padding="10dp"
+            android:popupBackground="#fff"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/challanTimeEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="320dp"
+            android:background="@drawable/edittextstyle"
+            android:ems="10"
+            android:hint="Time"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <Button
+            android:id="@+id/choosePicButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="450dp"
+            android:background="@drawable/buttonstyleselector"
+            android:padding="10dp"
+            android:text="Choose Picture" />
+
+        <Button
+            android:id="@+id/clickPicButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="450dp"
+            android:background="@drawable/buttonstyleselector"
+            android:padding="10dp"
+            android:text="Click Picture" />
+
+        <ImageView
+            android:id="@+id/picImageView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="485dp" />
+
+        <Button
+            android:id="@+id/issueChallanButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/picImageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonstyleselector"
+            android:padding="10dp"
+            android:text="Issue Challan" />
+
+        <EditText
+            android:id="@+id/challanAmountEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/challanTimeEditText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittextstyle"
+            android:ems="10"
+            android:hint="Fine Rs."
+            android:inputType="number"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+
+    </RelativeLayout>
+</ScrollView>

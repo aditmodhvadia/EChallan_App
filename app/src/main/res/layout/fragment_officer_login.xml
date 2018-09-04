@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/onemore" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="OFFICER LOGIN"
+            android:textColor="#ffff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/officerLoginEmailEditText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:background="@color/colorPrimary"
+            android:drawableStart="@drawable/ic_person_black_24dp"
+            android:hint=" Email ID"
+            android:padding="7dp"
+            android:textColor="#fff"
+            android:textColorHint="@color/colorGray" />
+
+        <EditText
+            android:id="@+id/officerLoginPasswordEditText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:hint=" Password"
+            android:inputType="textPassword"
+            android:padding="7dp"
+            android:textColor="#fff"
+            android:textColorHint="@color/colorGray" />
+
+        <CheckBox
+            android:id="@+id/showPasswordCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/adminPasswordEditText"
+            android:layout_below="@+id/adminPasswordEditText"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:shadowColor="#fff"
+            android:text="Show Password"
+            android:textColor="#000"
+            android:textColorHighlight="#000"
+            android:textColorHint="#000"
+            android:textColorLink="#000" />
+
+        <Button
+            android:id="@+id/officerLoginButton"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="login"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/forgotPasswordTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_below="@+id/officerLoginButton"
+            android:layout_centerHorizontal="true"
+            android:clickable="false"
+            android:text="Forgot Password?"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:textColor="#000" />
+
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
+
+
+
+
+
+

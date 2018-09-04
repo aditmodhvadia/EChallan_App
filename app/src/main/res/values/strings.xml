@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">E-Challan</string>
+    <string name="title_activity_login_tab">LoginTabActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_admin_function">AdminFunctionActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="passwordResetConfirmation">Are you sure you want to send password reset Email?</string>
+    <string name="passwordResetTitle">Password Reset</string>
+    <string name="title_activity_officer_function">OfficerFunctionActivity</string>
+
+    <array name="placeSpinnerValues">
+        <item>Vastrapur</item>
+        <item>S.G. Highway</item>
+        <item>Prahladnagar</item>
+        <item>Sola Bhagwat</item>
+        <item>Jodhpur Cross Roads</item>
+        <item>C.G. Road</item>
+        <item>Bopal Highway</item>
+    </array>
+
+</resources>

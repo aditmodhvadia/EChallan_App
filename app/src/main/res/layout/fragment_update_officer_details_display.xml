@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/traffic_dark"
+    android:orientation="vertical"
+    tools:context="com.example.e_challan.e_challan.UpdateOfficerDetailsDisplayFragment">
+
+
+
+    <EditText
+        android:id="@+id/officerFNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="@drawable/edittextstyle"
+        android:padding="15dp"
+        android:textColorHint="#fff"
+        android:layout_marginTop="15dp"
+        android:hint="First Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/officerLNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="@drawable/edittextstyle"
+        android:padding="15dp"
+        android:textColorHint="#fff"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/officerPhoneNoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:textColor="#fff"
+        android:background="@drawable/edittextstyle"
+        android:padding="15dp"
+        android:textColorHint="#fff"
+        android:hint="Phone Number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/officerDOBEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:textColor="#fff"
+        android:background="@drawable/edittextstyle"
+        android:padding="15dp"
+        android:textColorHint="#fff"
+        android:hint="DOB(DD/MM/YYYY)"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/officerAddressEditText"
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:background="@drawable/edittextstyle"
+        android:padding="15dp"
+        android:textColorHint="#fff"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPostalAddress" />
+
+    <Button
+        android:id="@+id/officerAddButton"
+        android:layout_width="wrap_content"
+        android:background="@drawable/buttonstyleselector"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Update Details" />
+
+
+</LinearLayout>
